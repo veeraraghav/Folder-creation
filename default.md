@@ -1,5 +1,5 @@
 # Folder-creation
-directory node[:sumologic][:tmp_path] do
+directory node=/home/test/test1 do
     owner 'root'
     group 'root'
     mode 0755
